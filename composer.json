@@ -1,0 +1,11 @@
+{
+    "name": "wai-blue/hubleto-linkedin-messages",
+    "license": "MIT",
+    "description": "Linkedin Messages App for Hubleto",
+    "autoload": {
+        "psr-4": {
+            "Hubleto\\App\\External\\WaiBlue\\LinkedinMessages\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
