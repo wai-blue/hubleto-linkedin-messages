@@ -27,7 +27,7 @@ class MessagesWithoutFollowup extends \Hubleto\Erp\Controller
     $this->viewParams['items'] = $items;
     $this->viewParams['total'] = count($items);
 
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Boards/MessagesWithoutFollowup.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Boards/MessagesWithoutFollowup.twig');
   }
 
 }

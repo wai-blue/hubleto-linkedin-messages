@@ -14,6 +14,6 @@ class Messages extends \Hubleto\Erp\Controller
   public function prepareView(): void
   {
     parent::prepareView();
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Messages.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Messages.twig');
   }
 }

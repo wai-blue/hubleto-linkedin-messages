@@ -24,7 +24,7 @@ class Workflow extends \Hubleto\App\Community\Workflow\Workflow
 
     foreach ($items as $key => $item) {
       $items[$key]['_DETAIL_URL'] = 'linkedin-messages/campaigns/' . $item['id'];
-      $items[$key]['_DETAIL_VIEW'] = '@Hubleto:App:Custom:LinkedinMessages/WorkflowItemDetail.twig';
+      $items[$key]['_DETAIL_VIEW'] = '@Hubleto:App:External:WaiBlue:LinkedinMessages/WorkflowItemDetail.twig';
     }
 
     return $items;

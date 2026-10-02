@@ -15,6 +15,6 @@ class Accounts extends \Hubleto\Erp\Controller
   public function prepareView(): void
   {
     parent::prepareView();
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Accounts.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Accounts.twig');
   }
 }

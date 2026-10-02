@@ -27,7 +27,7 @@ class UnreadMessages extends \Hubleto\Erp\Controller
     $this->viewParams['items'] = $items;
     $this->viewParams['total'] = count($items);
 
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Boards/UnreadMessages.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Boards/UnreadMessages.twig');
   }
 
 }

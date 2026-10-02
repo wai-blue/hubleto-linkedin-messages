@@ -15,6 +15,6 @@ class Replies extends \Hubleto\Erp\Controller
   public function prepareView(): void
   {
     parent::prepareView();
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Replies.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Replies.twig');
   }
 }

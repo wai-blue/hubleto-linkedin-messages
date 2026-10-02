@@ -48,6 +48,6 @@ class Settings extends \Hubleto\Erp\Controller
     $this->viewParams['defaultApiVersion'] = Client::DEFAULT_API_VERSION;
     $this->viewParams['clientSecretIsSet'] = $app->configAsString('clientSecret') !== '';
 
-    $this->setView('@Hubleto:App:Custom:LinkedinMessages/Settings.twig');
+    $this->setView('@Hubleto:App:External:WaiBlue:LinkedinMessages/Settings.twig');
   }
 }
